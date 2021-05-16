@@ -15,9 +15,6 @@ const ColorList = ({ colors, updateColors }) => {
   const [editing, setEditing] = useState(false);
   const [colorToEdit, setColorToEdit] = useState(initialColor);
 
-  const { push } = useHistory();
-
-
   const editColor = color => {
     setEditing(true);
     setColorToEdit(color);

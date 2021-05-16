@@ -4,11 +4,13 @@ import BubblePage from "./BubblePage";
 
 test("Renders BubblePage without errors", () => {
   // Finish this test
+  render(<BubblePage />)
 });
 
-test("Fetches data and renders the bubbles on mounting", () => {
-  // Finish this test
-});
+// test("Fetches data and renders the bubbles on mounting", () => {
+//   // Finish this test
+
+// });
 
 //Task List
 //1. Setup test for basic rendering of component
